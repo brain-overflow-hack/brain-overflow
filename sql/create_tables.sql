@@ -12,11 +12,11 @@ create table purchases(
 
 create table participants(
     "id" varchar(30),
-    "suplier_inn" varchar(12),
+    "supplier_inn" varchar(12),
     "is_winner" varchar(3)
 );
 
-create table contacts(
+create table contracts(
     "contract_reg_number" text,
     "id" varchar(30),
     "price" decimal,
