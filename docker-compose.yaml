@@ -11,3 +11,9 @@ services:
         volumes: 
           - ./sql/create_tables.sql:/docker-entrypoint-initdb.d/create_tables.sql
           - ./sql/data:/docker-entrypoint-initdb.d/data
+    frontend:
+      build: frontend/
+      ports:
+        - "8080:8080"
+    # depends_on:
+    #   - server
