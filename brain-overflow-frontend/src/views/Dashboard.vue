@@ -3,13 +3,16 @@
   <navbar />
   <div class="container">
     <div class="row-col-2">
-      <div class="col">
+      <div class="col text-center mt-5">
+        <h5> Количество побед за месяц в течение последних трех лет</h5>
         <graphic-card-win />      
       </div>
-      <div class="col">
+      <div class="col text-center mt-5">
+        <h5> Количество участий в тендерах за месяц в течение последних трех лет</h5>
         <graphic-card-all />      
       </div>
-      <div class="col">
+      <div class="col text-center mt-5">
+        <h5> Сумма стоимостей заключенных контрактов за месяц в течение последних трех лет</h5>
         <graphic-card-sum />      
       </div>
     </div>
