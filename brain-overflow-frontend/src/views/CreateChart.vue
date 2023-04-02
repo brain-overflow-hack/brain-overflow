@@ -40,7 +40,17 @@
 </div>
 
     <div class="container">
-      <span></span>
+      <span v-if="Graph === 1">
+        <graphic-card-all />
+    </span>
+    <span v-else-if="Graph === 2">
+        <graphic-card-win />
+    </span>
+    <span v-else-if="Graph === 3">
+        <graphic-card-sum />
+    </span>
+    <span v-else>
+    </span>
   </div>
   </span>
   </template>
